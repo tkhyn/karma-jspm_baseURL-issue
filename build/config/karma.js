@@ -14,7 +14,7 @@ module.exports = function(config) {
 
     jspm: {
       // Edit this to your needs
-      loadFiles: ['js/app/**/*.js', 'test/unit/**/*.js'],
+      loadFiles: ['js/app/**/*.js', 'js/tests/unit/**/*.js'],
       paths: {
         '*': '*.js',
         'github:*': 'build/dist-dev/js/jspm/github/*.js',
@@ -35,7 +35,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'test/**/*.js': ['babel'],
+      'js/tests/**/*.js': ['babel'],
       'js/app/**/*.js': ['babel']
     },
     'babelPreprocessor': {
