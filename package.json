@@ -57,6 +57,9 @@
     "yargs": "^2.1.1"
   },
   "jspm": {
+    "directories": {
+      "packages": "build/dist-dev/js/jspm"
+    },
     "dependencies": {
       "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-beta.1",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1",

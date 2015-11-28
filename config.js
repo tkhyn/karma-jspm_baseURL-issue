@@ -9,8 +9,8 @@ System.config({
   },
   paths: {
     "*": "dist/*",
-    "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
+    "github:*": "build/dist-dev/js/jspm/github/*",
+    "npm:*": "build/dist-dev/js/jspm/npm/*"
   },
 
   map: {

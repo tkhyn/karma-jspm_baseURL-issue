@@ -1,4 +1,4 @@
 syntax: glob
 
 node_modules
-jspm_packages
+build/dist-dev/js/jspm
