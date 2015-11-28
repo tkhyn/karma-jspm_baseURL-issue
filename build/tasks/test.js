@@ -6,7 +6,7 @@ var Karma = require('karma').Server;
  */
 gulp.task('test', function (done) {
   new Karma({
-    configFile: __dirname + '/../../karma.conf.js',
+    configFile: __dirname + '/../config/karma.js',
     singleRun: true
   }, done).start();
 });
@@ -16,7 +16,7 @@ gulp.task('test', function (done) {
  */
 gulp.task('tdd', function (done) {
   new Karma({
-    configFile: __dirname + '/../../karma.conf.js'
+    configFile: __dirname + '/../config/karma.js'
   }, done).start();
 });
 
@@ -25,7 +25,7 @@ gulp.task('tdd', function (done) {
  */
 gulp.task('cover', function(done) {
   new Karma({
-    configFile: __dirname + '/../../karma.conf.js',
+    configFile: __dirname + '/../config/karma.js',
     singleRun: true,
     reporters: ['coverage'],
     preprocessors: {
