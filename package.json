@@ -58,6 +58,7 @@
   },
   "jspm": {
     "directories": {
+      "baseURL": "build/dist-dev/",
       "packages": "build/dist-dev/js/jspm"
     },
     "configFile": "build/dist-dev/js/jspm.js",
